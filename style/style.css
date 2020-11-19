@@ -13,6 +13,8 @@
 
 body {
     background: var(--black) ;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
 }
 
 header .container {
@@ -41,4 +43,28 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+/* main film*/
+
+main .main-chapter {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)) ,url('../img/kingdom-cart.jpg');
+
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main .main-chapter .description {
+    margin-bottom: 60px;
+    width: 450px;
+}
+
+main .main-chapter .title {
+    font-size: 40px;
 }
